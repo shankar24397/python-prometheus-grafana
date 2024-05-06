@@ -1,7 +1,6 @@
 version: "3.3"
    
 services:
-
   prometheus:
     image: prom/prometheus
     ports:
@@ -23,4 +22,4 @@ services:
       - prometheus
     ports:
       - "8080:8080"
-    command: ["python3", "app/main.py"]
+    command: ["python", "app/main.py"]
