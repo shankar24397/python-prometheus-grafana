@@ -11,7 +11,7 @@ UPDATE_COUNT = Counter('update_count', 'Number of updates')
 @REQUEST_TIME.time()
 def process_request(t):
     """A dummy function that takes some time."""
-    time.sleep(t)
+    time.sleep(10)
 
 
 if __name__ == '__main__':
